@@ -29,9 +29,13 @@ wheels/
 *.flac
 *.asd
 
-# Directories with recordings
-eran_wedding_bot/recordings/
-eran_wedding_bot/mp3_recordings/
+# Directories with audio content, but keep the directory structure
+eran_wedding_bot/recordings/*
+!eran_wedding_bot/recordings/.gitkeep
+eran_wedding_bot/mp3_recordings/*
+!eran_wedding_bot/mp3_recordings/.gitkeep
+eran_wedding_bot/media/*
+!eran_wedding_bot/media/.gitkeep
 
 # Log files
 *.log
